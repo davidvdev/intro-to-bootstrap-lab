@@ -12,12 +12,13 @@ Follow the instructions below,.
 
 ### Options
 
-You have the following options to work on: 
+Use Bootstrap to implement one of the following: 
 
 ##### Bootstrap Template
-- Replicating [this Bootstrap template](http://getbootstrap.com/examples/offcanvas/) in the `index.html` of this directory. Remember to include the three script/style links, and refer frequently back to the documentation!!
+
+- Replicating [this Bootstrap template](http://getbootstrap.com/examples/offcanvas/) 
 
 ##### Startup Matchmaker
 
-- Replicating the Startup Matchmaker Site
+- Replicating the existing Startup Matchmaker Site
 
