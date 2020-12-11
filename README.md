@@ -10,8 +10,14 @@ Follow the instructions below,.
 	- style.css
 3. Be sure to link the `style.css` with `index.html`
 
-### Requirements
+### Options
 
-Try replicating [this Bootstrap template](http://getbootstrap.com/examples/offcanvas/) in the `index.html` of this directory. Remember to include the three script/style links, and refer frequently back to the documentation!!
+You have the following options to work on: 
 
-You can work in pairs or groups for this lab.
+##### Bootstrap Template
+- Replicating [this Bootstrap template](http://getbootstrap.com/examples/offcanvas/) in the `index.html` of this directory. Remember to include the three script/style links, and refer frequently back to the documentation!!
+
+##### Startup Matchmaker
+
+- Replicating the Startup Matchmaker Site
+
