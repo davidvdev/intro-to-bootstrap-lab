@@ -19,7 +19,5 @@ Use Bootstrap to implement one of the following:
 - [Album](https://getbootstrap.com/docs/4.0/examples/album/)
 - [Blog](https://getbootstrap.com/docs/4.0/examples/blog/)
 
-##### Startup Matchmaker
 
-- Replicating the existing Startup Matchmaker Site
 
