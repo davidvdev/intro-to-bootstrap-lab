@@ -15,8 +15,9 @@ Follow the instructions below,.
 Use Bootstrap to implement one of the following: 
 
 ##### Bootstrap Template
-
-- Replicating [this Bootstrap template](http://getbootstrap.com/examples/offcanvas/) 
+- [Jumbotron](http://getbootstrap.com/examples/offcanvas/) 
+- [Album](https://getbootstrap.com/docs/4.0/examples/album/)
+- [Blog](https://getbootstrap.com/docs/4.0/examples/blog/)
 
 ##### Startup Matchmaker
 
