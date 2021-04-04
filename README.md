@@ -10,11 +10,10 @@ Follow the instructions below,.
 	- style.css
 3. Be sure to link the `style.css` with `index.html`
 
-### Options
+### The Rebuild
 
-Use Bootstrap to implement one of the following: 
+Use Bootstrap to implement one of the following bootstrap templates: 
 
-##### Bootstrap Template
 - [Jumbotron](http://getbootstrap.com/examples/offcanvas/) 
 - [Album](https://getbootstrap.com/docs/4.0/examples/album/)
 - [Blog](https://getbootstrap.com/docs/4.0/examples/blog/)
