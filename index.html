@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<!-- header nav -->
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark-custom p-4">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h5 class="text-white h4">About </h5>
+                    <span class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</span>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled" >
+                        <li>
+                            <a href="#" class="text-white text-decoration-none">Follow on Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white text-decoration-none ">Like on Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white text-decoration-none">Email me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark-custom">
+        <div class="container-fluid justify-content-between">
+            <div class="d-flex justify-content-between align-items-center p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-camera m-2" viewBox="0 0 16 16">
+                <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                </svg>
+                <strong class="text-white p-2">Album</strong>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    
+<!-- hero image and call to action  -->
+<section id="jumbotron" class="text-center">
+    <div class="container">
+        <h1 class="">Album example</h1>
+        <p class="lead text-muted">
+            Something short and leading about the collection below-its contents, the create, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.
+        </p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+    </div>
+</section>
+<!-- gallery -->
+<div id="gallery-grid" class="row row-cols-1 row-cols-md-3 g-4 p-3 bg-light-custom py-5">
+    <div class="col">
+        <!-- card 1 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 2 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 3 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">        
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 4 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 5 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 6 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 7 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 8 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <!-- card 9 -->
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1625224266003-2206f1af0230?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="bird">
+        <div class="card-body">
+          <h5 class="card-title">B I R D</h5>
+          <p class="card-text">This is a bird.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- footer -->
+<footer class="text-muted p-4">
+    <div class="container">
+        <p class="float-end">
+            <a class="text-decoration-none" href="#">Back to top</a>
+        </p>
+        <p>This is more text!</p>
+        <p>
+            More text 
+            <a class="text-decoration-none" href="#">link1</a>
+             and more text 
+            <a class="text-decoration-none" href="#">link2</a>
+            .
+        </p>
+    </div>
+</footer>
+</body>
+</html>

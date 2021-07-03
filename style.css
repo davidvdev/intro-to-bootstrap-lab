@@ -1,0 +1,13 @@
+
+.bg-dark-custom {
+    background-color: #343A40;
+}
+
+.bg-light-custom {
+    background-color: #F8F9FA;
+}
+
+#jumbotron {
+    margin: 50px 10px;
+    padding: 40px;
+}
